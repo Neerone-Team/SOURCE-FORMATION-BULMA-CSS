@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Les grilles Bulma</title>
+</head>
+
+<body>
+    <nav class="navbar main_menu py-2" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item logo" href="https://bulma.io">
+                <strong class="is-size-3">MON LOGO</strong>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu ">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Utilisateurs
+                </a>
+
+                <a class="navbar-item">
+                    Abonnements
+                </a>
+                <a class="navbar-item">
+                    Plus
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-link is-rounded py-5">
+                            <strong>DECONNEXION</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="columns">
+        <div class="column is-2 is-hidden-mobile sidebar">
+            <aside class="menu  pt-6 px-4">
+                <p class="menu-label">
+                    General
+                </p>
+                <ul class="menu-list">
+                    <li><a>Dashboard</a></li>
+                    <li><a>Customers</a></li>
+                </ul>
+                <p class="menu-label">
+                    Administration
+                </p>
+                <ul class="menu-list">
+                    <li><a>Team Settings</a></li>
+                    <li>
+                        <a class="is-active">Manage Your Team</a>
+                        <ul>
+                            <li><a>Members</a></li>
+                            <li><a>Plugins</a></li>
+                            <li><a>Add a member</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Invitations</a></li>
+                    <li><a>Cloud Storage Environment Settings</a></li>
+                    <li><a>Authentication</a></li>
+                </ul>
+                <p class="menu-label">
+                    Transactions
+                </p>
+                <ul class="menu-list">
+                    <li><a>Payments</a></li>
+                    <li><a>Transfers</a></li>
+                    <li><a>Balance</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="column is-10 ">
+            <div class="container">
+                <div class="tile is-ancestor pt-6">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">One</p>
+                            <p class="subtitle">Subtitle</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">Two</p>
+                            <p class="subtitle">Subtitle</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">Three</p>
+                            <p class="subtitle">Subtitle</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">Four</p>
+                            <p class="subtitle">Subtitle</p>
+                        </article>
+                    </div>
+                </div>
+                <section class="section px-0">
+                    <table class="table is-hoverable is-fullwidth is-bordered">
+                        <thead class="has-text-centered">
+                            <tr>
+                                <th>Noms Prénoms</th>
+                                <th>Date d'inscription</th>
+                                <th>Dernière visite</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="has-text-centered">
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4">Jhon Doe</td>
+                                <td class="py-4">02 - 03 - xxxx</td>
+                                <td class="py-4">04 - 06 - yyyy</td>
+                                <td class="py-4">valide</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="block">
+                    <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+                        <a class="pagination-previous">Précédent</a>
+                        <a class="pagination-next">Suivant</a>
+                        <ul class="pagination-list">
+                            <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                            <li><span class="pagination-ellipsis">&hellip;</span></li>
+                            <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+                            <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a>
+                            </li>
+                            <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+                            <li><span class="pagination-ellipsis">&hellip;</span></li>
+                            <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+            <br><br><br><br>
+        </div>
+
+    </div>
+</body>
+
+</html>

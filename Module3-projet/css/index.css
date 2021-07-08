@@ -1,0 +1,17 @@
+div.column.sidebar {
+    height: 102vh;
+    overflow: hidden;
+    border-right: .1px solid rgba(0,0,0,.2);
+}
+
+section.conversations {
+    height:90vh;
+    overflow-y: auto;
+    margin-bottom: 100px;
+}
+
+div.container.userspace {
+
+    margin: 110px auto;
+    max-width: 50% !important;
+}

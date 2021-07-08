@@ -1,0 +1,15 @@
+aside.menu {
+    height: 100vh !important;
+}
+
+div.column.sidebar {
+    border-right: .1px solid rgba(0,0,0,.1);
+}
+
+nav.main_menu {
+    border-bottom: .1px solid rgba(0,0,0,.1);
+}
+
+a.navbar-item.logo {
+    font-family: 'Dancing Script', cursive;
+}

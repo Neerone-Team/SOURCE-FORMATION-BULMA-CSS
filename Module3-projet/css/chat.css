@@ -1,0 +1,21 @@
+div.column.sidebar {
+    height: 102vh;
+    overflow: hidden;
+    border-right: .1px solid rgba(0,0,0,.2);
+}
+
+nav.navbar.chat_infos {
+    border-bottom: .1px solid rgba(0,0,0,.2);
+}
+
+article.message_item {
+    width: 40%;
+}
+
+div.field_message {
+    position: absolute;
+    left: 25%;
+    right: 20%;
+    bottom: 15px;
+    width: auto;
+}
